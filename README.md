@@ -1,4 +1,4 @@
-# Holiday-Trip-Multi-City-Itinerary-Optimization
+# Multi-City-Itinerary-Optimization
 Team Name: EVE
 
 Team Members
@@ -49,7 +49,8 @@ pip install numpy cvxpy matplotlib
 
 The project is organized as a Python package trip_opt. Ensure your directory looks similar to this:
 
-/project_root
+/project_root    
+    
     /trip_opt
         __init__.py
         data.py       # Data generation and structures
@@ -57,8 +58,9 @@ The project is organized as a Python package trip_opt. Ensure your directory loo
         solver.py     # Solving logic and solution extraction
         analysis.py   # Text-based output of results
         viz.py        # Graph plotting functions
-    run_example.py    # Main script to run a single optimization
-    run_sensitivity.py # Script to run budget sensitivity analysis
+    /scripts
+      run_example.py    # Main script to run a single optimization
+      run_sensitivity.py # Script to run budget sensitivity analysis
 
 
 Usage
